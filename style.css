@@ -1,6 +1,7 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #fff;
+    margin: 0;
 }
 
 header{
@@ -11,7 +12,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-h1{
+header h1{
     color: red;
 }
 
@@ -24,3 +25,42 @@ h1{
     height: auto;
 }
 
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none
+}
+
+nav ul li{
+    margin: 15px;
+}
+
+.tabla thead{
+    background-color: #333;
+    color: #fff;
+}
+.tabla{
+    width: 95%;
+    margin: 3%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid black;
+    padding: 8px;
+}
+.tabla tbody tr:nth-child(even) {
+    background-color: #f2f2f2; /* Gris */
+  }
+
+footer{
+    background-color: black;
+    color: #fff;
+}
+
+.tabla img{
+    width: 80px;
+    height: 40px;
+}
